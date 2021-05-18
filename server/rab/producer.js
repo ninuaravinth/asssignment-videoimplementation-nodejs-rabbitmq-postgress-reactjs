@@ -10,7 +10,7 @@ amqp.connect("amqps://zwmedbus:loP22y6ShXePb3QfMmpN3Awg31dP7vu2@baboon.rmq.cloud
         }
 
         let queue = "my_queue";
-        let msg = "Hello world!";
+        let msg = "proceed";
 
         channel.assertQueue(queue, {
             durable: true,
